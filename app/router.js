@@ -7,6 +7,9 @@ const Router = EmberRouter.extend({
 });
 
 Router.map(function() {
+  this.route('whistle-blowers');
+  this.route('meetups');
+  this.route('callback');
 });
 
 export default Router;
